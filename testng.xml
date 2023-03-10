@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="MrngBatch">
+  <test thread-count="5" parallel="classes" name="Report1">
+    <classes>
+      <class name="dec8.FirstTestNGClass"/>
+      
+  
+    </classes>
+  </test> <!-- Report -->
+  <test thread-count="5" parallel="classes" name="Report2">
+    <classes>
+     
+     
+      
+      <class name="dec8.SecondTestNGClass300"/>
+    </classes>
+  </test> <!-- Report -->
+</suite> <!-- MrngBatch -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ranga]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Report(failed)">
+    <classes>
+      <class name="dec8.SecondTestNGClass300">
+        <methods>
+          <include name="multipliation"/>
+          <include name="adition"/>
+          <include name="setup"/>
+          <include name="division"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- dec8.SecondTestNGClass300 -->
+    </classes>
+  </test> <!-- Report(failed) -->
+</suite> <!-- Failed suite [Ranga] -->

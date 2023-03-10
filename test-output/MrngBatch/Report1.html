@@ -1,0 +1,151 @@
+<html>
+<head>
+<title>TestNG:  Report1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Report1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Feb 04 14:03:02 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>167 seconds (167966 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='dec8.FirstTestNGClass.roles()'><b>roles</b><br>Test class: dec8.FirstTestNGClass<br/>
+<a href="#Output-1362910781" onClick='toggleBox("Output-1362910781", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1362910781" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1362910781">
+executing roles Test<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>dec8.FirstTestNGClass@3e27aa33</td></tr>
+<tr>
+<td title='dec8.FirstTestNGClass1.users()'><b>users</b><br>Test class: dec8.FirstTestNGClass1<br/>
+<a href="#Output-1779709685" onClick='toggleBox("Output-1779709685", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1779709685" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1779709685">
+executing users test<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>dec8.FirstTestNGClass1@f78a47e</td></tr>
+<tr>
+<td title='dec8.FirstTestNGClass1.roles()'><b>roles</b><br>Test class: dec8.FirstTestNGClass1<br/>
+<a href="#Output-1260815728" onClick='toggleBox("Output-1260815728", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1260815728" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1260815728">
+executing roles test<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>dec8.FirstTestNGClass1@f78a47e</td></tr>
+<tr>
+<td title='dec8.FirstTestNGClass1.branches()'><b>branches</b><br>Test class: dec8.FirstTestNGClass1<br/>
+<a href="#Output-1435889436" onClick='toggleBox("Output-1435889436", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1435889436" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1435889436">
+executing branch test<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>dec8.FirstTestNGClass1@f78a47e</td></tr>
+<tr>
+<td title='dec8.FirstTestNGClass.users()'><b>users</b><br>Test class: dec8.FirstTestNGClass<br/>
+<a href="#Output-1542719038" onClick='toggleBox("Output-1542719038", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1542719038" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1542719038">
+executing users Test<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>dec8.FirstTestNGClass@3e27aa33</td></tr>
+<tr>
+<td title='dec8.FirstTestNGClass.branches()'><b>branches</b><br>Test class: dec8.FirstTestNGClass<br/>
+<a href="#Output-306229133" onClick='toggleBox("Output-306229133", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-306229133" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-306229133">
+executing Branch Test<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>dec8.FirstTestNGClass@3e27aa33</td></tr>
+</table><p>
+</body>
+</html>
